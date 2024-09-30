@@ -10,6 +10,16 @@ article{
     padding: 40px;
 }
 
+body{
+    background-color: white;
+    color: black;
+}
+
+.dark-mode{
+    background-color: black;
+    color: white;
+}
+
 img{
     margin-bottom: 40px;
 }
@@ -26,6 +36,10 @@ img{
     float: right;
     border-radius: 5%;
     margin-left: 20px;
+}
+
+header{
+    background-color: bisque;
 }
 
 .image3{
@@ -55,12 +69,15 @@ img{
 .footer{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 100px;
 }
 
 
 
 #footer-content{
     background: beige;
+    height: 200px;
+    width: 100%;
 }
 
 h2{
