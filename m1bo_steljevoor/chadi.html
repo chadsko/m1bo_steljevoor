@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Chadi Kourich</title>
 </head>
-<header></header>
+<header>
+    <button onclick="myFunction()">Toggle dark mode</button>
+</header>
 <body>
     <article>
         <img src="img/Image.jfif" alt="een selfie van mijzelf" class="image1">
@@ -67,6 +69,12 @@
             <li>Barcelona</li>
             <li>Real Madrid</li>
         </ol></p>
+        <script>
+            function myFunction() {
+               var element = document.body;
+               element.classList.toggle("dark-mode");
+            }
+            </script>
     </article>
 </body>
 <footer id="footer-content"><p class="footer">Copyright 2024 - Chadi Kourich</p></footer>
